@@ -3,7 +3,7 @@
 *Menu creation Arduino library for LCDs, wraps [LiquidCrystal][lc].*
 
 [![Build Status](https://travis-ci.org/VaSe7u/LiquidMenu.svg?branch=master)](https://travis-ci.org/VaSe7u/LiquidMenu)
-[![release](https://img.shields.io/badge/release-1.3.0-yellow.svg)](https://github.com/VaSe7u/LiquidMenu/releases)
+[![release](https://img.shields.io/badge/release-1.4.0-yellow.svg)](https://github.com/VaSe7u/LiquidMenu/releases)
 [![documentation](https://img.shields.io/badge/docs-doxygen-green.svg)](https://VaSe7u.github.io/LiquidMenu/doc/Doxygen/html/index.html)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://opensource.org/licenses/mit-license.php)
 
@@ -153,15 +153,11 @@ void loop() {
 
 Contributors
 ============
-[Richard Wardlow](https://github.com/circuitsforfun) - Scrolling lines and configuring the number decimal places.
+[Richard Wardlow](https://github.com/circuitsforfun) - Scrolling lines and configuring the number of digits shown after the decimal point.
 
-Contributing
-============
-See [CONTRIBUTING.md][contributing] for additional information.
+[Jose Manuel](https://github.com/jmpmscorp) - Getter functions in "lines".
 
-Code of conduct
-===============
-See [CODE_OF_CONDUCT.md][code_of_conduct] for additional information.
+See [CONTRIBUTING.md][contributing] if you want to contribute.
 
 License
 =======
@@ -191,6 +187,6 @@ SOFTWARE.
 [doxygen classes]: https://VaSe7u.github.io/LiquidMenu/doc/Doxygen/html/annotated.html
 [examples]: /examples
 [latest release]: https://github.com/VaSe7u/LiquidMenu/releases/latest
-[code_of_conduct]: /CODE_OF_CONDUCT.md
-[contributing]: /CONTRIBUTING.md
+[code_of_conduct]: /.github/CODE_OF_CONDUCT.md
+[contributing]: /.github/CONTRIBUTING.md
 [wiki]: 404
